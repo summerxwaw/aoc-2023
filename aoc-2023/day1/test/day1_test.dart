@@ -12,4 +12,17 @@ void main() {
 
     expect(getSize(testList), 142);
   });
+  test('getValueTaskTwo', () {
+    final testList = [
+      'two1nine',
+      'eightwothree',
+      'abcone2threexyz',
+      'xtwone3four',
+      '4nineeightseven2',
+      'zoneight234',
+      '7pqrstsixteen',
+    ];
+
+    expect(getValueTaskTwo(testList), 281);
+  });
 }
